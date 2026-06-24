@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Growin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/growin_teal</item>
+        <item name="android:navigationBarColor">@color/growin_teal</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">@color/growin_teal</item>
+        <item name="colorPrimaryVariant">@color/growin_teal</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>

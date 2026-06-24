@@ -1,0 +1,19 @@
+Changes applied:
+
+1. Removed custom splash screen launch flow:
+   - MainActivity.kt: removed installSplashScreen() call and splash import.
+   - AndroidManifest.xml: application/activity theme changed to Theme.Growin.
+   - themes.xml: removed Theme.Growin.Splash.
+   - build.gradle.kts: removed androidx.core:core-splashscreen dependency.
+   - removed old splash drawable resources.
+
+2. Added new premium CRM launcher icon:
+   - mipmap-mdpi/ic_launcher.png and ic_launcher_round.png
+   - mipmap-hdpi/ic_launcher.png and ic_launcher_round.png
+   - mipmap-xhdpi/ic_launcher.png and ic_launcher_round.png
+   - mipmap-xxhdpi/ic_launcher.png and ic_launcher_round.png
+   - mipmap-xxxhdpi/ic_launcher.png and ic_launcher_round.png
+   - app_icon_preview.png
+
+3. CRM URL remains fixed:
+   https://crm.travbizz.com/
